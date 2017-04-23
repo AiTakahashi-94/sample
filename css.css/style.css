@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	width:100%;
+	height: auto;
+
+
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#section2{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#section1 .wrapper{
+	display: table;
+}
+#section1 .inner{
+	display: table-cell;
+	vertical-align: middle;
+}
+#section1 img{
+	float: left;
+	width: 30%;
+}
+#section1 p{
+	float: left;
+	width: 70%;
+}
+
